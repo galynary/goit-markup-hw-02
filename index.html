@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
     <head>
         <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <title>Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Студія</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -16,167 +14,169 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <!--header-->
+        <!--хедер-->
         <header class="header">
             <nav>
                 <a href="./index.html" class="logo"
                     >Web <span class="logo-dark">Studio</span></a
                 >
                 <ul class="site-nav">
-                    <li class="site-nav-item">
+                    <li class="site nav item">
                         <a class="nav-link link" href="">Студия</a>
                     </li>
-                    <li class="site-nav-item">
-                        <a class="nav-link-active" href="Портфолио"
+                    <li class="site nav item">
+                        <a class="nav-link active" href="portfolio.html"
                             >Портфолио</a
                         >
                     </li>
-                    <li class="site-nav-item">
+                    <li class="site nav item">
                         <a class="nav-link link" href="">Контакти</a>
                     </li>
                 </ul>
                 <ul class="nav-contacts">
-                    <li class="site-nav-item">
-                        <a class="mail-header" href="mailto:info@devstudio.com"
-                            >info@devstudio.com</a
-                        >
+                    <li class="nav-link">
+                        <button type="button" class="button button-primary">
+                            info@devstudio.com
+                        </button>
                     </li>
-                    <li class="site-nav-item">
-                        <a class="phone-header" href="tel:+380961111111"
-                            >+38 096 111 11 11</a
-                        >
+                    <li class="nav-link">
+                        <button type="button" class="button button-secondary">
+                            +38 096 111 11 11
+                        </button>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section class="portfolio">
-            <h1 class="section-title">Portfolio</h1>
-            <!--nav-->
-            <nav class="portfolio-nav">
-                <ul class="portfolio-menu">
-                    <li class="portfolio-item">
-                        <a href="" class="menu-link curent">Все</a>
+
+        <!--студія-->
+        <main>
+            <!--шапка-->
+            <section class="studio">
+                <h1 class="studio-title">
+                    Эффективные решения для вашего бизнеса
+                </h1>
+                <button type="button" class="btn-primary">
+                    Заказать услугу
+                </button>
+            </section>
+            <!--переваги-->
+            <section class="advantages">
+                <h2 class="section-title">Наши преимущества</h2>
+                <ul class="links">
+                    <li class="link-iteam">
+                        <h3 class="advantages-title">Внимание к деталям</h3>
+                        <p class="advantages-text">
+                            Идейные соображения, а также начало повседневной
+                            работы по формированию позиции.
+                        </p>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="menu-link link">Веб-сайти</a>
+                    <li class="link-iteam">
+                        <h3 class="advantages-title">Пунктуальность</h3>
+                        <p class="advantages-text">
+                            Задача организации, в особенности же рамки и место
+                            обучения кадров влечет за собой.
+                        </p>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="menu-link link">Додатки</a>
+                    <li class="link-iteam">
+                        <h3 class="advantages-title">Планирование</h3>
+                        <p class="advantages-text">
+                            Равным образом консультация с широким активом в
+                            значительной степени обуславливает.
+                        </p>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="menu-link link">Дизайн</a>
-                    </li>
-                    <li class="portfolio-item">
-                        <a href="" class="menu-link link">Маркетинг</a>
+                    <li class="link-iteam">
+                        <h3 class="advantages-title">Современные технологии</h3>
+                        <p class="advantages-text">
+                            Значимость этих проблем настолько очевидна, что
+                            реализация плановых заданий.
+                        </p>
                     </li>
                 </ul>
-            </nav>
-            <ul class="list">
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img1.jpg"
-                        width="370"
-                        height="294"
-                        alt="Веб-сайт"
-                    />
-                    <h3 class="list-title">Технокряк</h3>
-                    <p class="list-text">Веб-сайт</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img2.jpg"
-                        width="370"
-                        height="294"
-                        alt="Постер New Orlean vs Golden Star"
-                    />
-                    <h3 class="list-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="list-text">Дизайн</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img3.jpg"
-                        width="370"
-                        height="294"
-                        alt="Ресторан Seafood"
-                    />
-                    <h3 class="list-title">Ресторан Seafood</h3>
-                    <p class="list-text">Додаток</p>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img4.jpg"
-                        width="370"
-                        height="294"
-                        alt="Проєкт Prime"
-                    />
-                    <h3 class="list-title">Проєкт Prime</h3>
-                    <p class="list-text">Product Designer</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img5.jpg"
-                        width="370"
-                        height="294"
-                        alt="Проєкт Boxes"
-                    />
-                    <h3 class="list-title">Проєкт Boxes</h3>
-                    <p class="list-text">Додаток</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img6.jpg"
-                        width="370"
-                        height="294"
-                        alt="Веб-сайт"
-                    />
-                    <h3 class="list-title">Inspiration has no Borders</h3>
-                    <p class="list-text">Веб-сайт</p>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img7.jpg"
-                        width="370"
-                        height="294"
-                        alt="Видання Limited Edition"
-                    />
-                    <h3 class="list-title">Видання Limited Edition</h3>
-                    <p class="list-text">Дизайн</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img8.jpg"
-                        width="370"
-                        height="294"
-                        alt="Проект LAB"
-                    />
-                    <h3 class="list-title">Проект LAB</h3>
-                    <p class="list-text">Маркетинг</p>
-                </li>
-                <li class="list-item">
-                    <img
-                        class="portfolio-img"
-                        src="./images/img9.jpg"
-                        width="370"
-                        height="294"
-                        alt="Мобільний додаток"
-                    />
-                    <h3 class="list-title">Growing Business</h3>
-                    <p class="list-text">Додаток</p>
-                </li>
-            </ul>
-        </section>
+            </section>
+            <!--наша работа-->
+            <section class="our-work">
+                <h2 class="section-title">Чем мы занимаемся</h2>
+                <ul class="list">
+                    <li class="list-iteam">
+                        <img
+                            class="work-img"
+                            src="./images/work/box1.jpg"
+                            width="370"
+                            height="294"
+                            alt="клавіатура і планшет"
+                        />
+                    </li>
+                    <li class="list-iteam">
+                        <img
+                            class="work-img"
+                            src="./images/work/box2.jpg"
+                            width="370"
+                            height="294"
+                            alt="мобільний телефон і ноутбук"
+                        />
+                    </li>
+                    <li class="list-iteam">
+                        <img
+                            class="work-img"
+                            src="./images/work/box3.jpg"
+                            width="370"
+                            height="294"
+                            alt="планшет у руці"
+                        />
+                    </li>
+                </ul>
+            </section>
+            <!--команда-->
+            <section class="section-team">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="list">
+                    <li class="list-iteam">
+                        <img
+                            class="team-img"
+                            src="./images/team/photo1.jpg"
+                            width="270"
+                            height="260"
+                            alt="Игорь Демьяненко"
+                        />
+                        <h3 class="list-title">Игорь Демьяненко</h3>
+                        <p class="list-text">Product Designer</p>
+                    </li>
+                    <li class="list-iteam">
+                        <img
+                            class="team-img"
+                            src="./images/team/photo2.jpg"
+                            width="270"
+                            height="260"
+                            alt="Ольга Репина"
+                        />
+                        <h3 class="list-title">Ольга Репина</h3>
+                        <p class="list-text">Frontend Developer</p>
+                    </li>
+                    <li class="list-iteam">
+                        <img
+                            class="team-img"
+                            src="./images/team/photo3.jpg"
+                            width="270"
+                            height="260"
+                            alt="Николай Тарасов"
+                        />
+                        <h3 class="list-title">Николай Тарасов</h3>
+                        <p class="list-text">Marketing</p>
+                    </li>
+                    <li class="list-iteam">
+                        <img
+                            class="team-img"
+                            src="./images/team/photo4.jpg"
+                            width="270"
+                            height="260"
+                            alt="Михаил Ермаков"
+                        />
+                        <h3 class="list-title">Михаил Ермаков</h3>
+                        <p class="list-text">UI Design</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
         <!--подвал-->
         <footer class="footer">
             <a class="logo" href="">
@@ -192,12 +192,12 @@
                         >
                     </li>
                     <li class="address-item">
-                        <a class="mail-footer" href="mailto:info@example.com"
+                        <a class="address-link" href="mailto:info@example.com"
                             >info@example.com</a
                         >
                     </li>
                     <li class="address-item">
-                        <a class="phone-footer" href="tel:+380961111111"
+                        <a class="address-link" href="tel:+380961111111"
                             >+38 096 111 11 11</a
                         >
                     </li>
