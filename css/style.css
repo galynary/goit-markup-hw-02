@@ -1,14 +1,13 @@
 :root {
     --accent-color: #2196f3;
     --primary-white-color: #fff;
-    --font-family: 'Roboto', sans-serif;
     --title-font-size: 16px;
     --text-font-size: 14px;
     --priamary-color: #212121;
     --text-color: #757575;
 }
 body {
-    font-family: var(--font-family);
+    font-family: 'Roboto', sans-serif;
     font-size: var(--text-font-size);
     color: var(--accent-color);
 }
@@ -22,8 +21,11 @@ body {
 
 /*--хедер--*/
 .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.92;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
@@ -37,38 +39,40 @@ body {
     color: #fff;
 }
 
-.list-item .menu {
+.header-link {
+    font-weight: 500;
     font-size: var(--text-font-size);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--priamary-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--accent-color);
 }
-.link {
+.contacts-link {
     font-size: var(--text-font-size);
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-weight: 500;
     color: var(--text-color);
 }
-.link:hover,
-.link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
-
 .title {
     color: var(--priamary-color);
     font-size: 32px;
 }
 .button {
-    font-size: var(--text-font-size);
+    font-size: var(--title-font-size);
     text-align: center;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--priamary-color);
+    font-weight: 500;
 }
 
 .button:hover,
@@ -92,30 +96,30 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
+.portfolio-list-item {
+    width: 370px;
+    height: 404px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
 
 /*--подвал--*/
 
 footer {
     background-color: #2f303a;
 }
-.logo {
-    color: var(--accent-color);
-    font-family: 'Raleway';
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+
 .logo-white {
     color: #fff;
 }
-.item-address .address {
+.address {
     font-size: var(--text-font-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #ffffff;
     font-style: normal;
 }
-.address-item .link {
+.address-link {
     font-size: var(--text-font-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -124,6 +128,10 @@ footer {
 }
 
 /*--студія--*/
+
+.section-team {
+    background-color: #f5f4fa;
+}
 
 .studio {
     background-color: #2f303a;
