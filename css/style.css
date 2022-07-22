@@ -68,6 +68,7 @@ body {
 }
 .button {
     font-size: var(--title-font-size);
+    font-family: 'Roboto';
     text-align: center;
     line-height: 1.6;
     letter-spacing: 0.03em;
@@ -171,7 +172,7 @@ footer {
     color: var(--priamary-color);
 }
 .advantages-text {
-    font-size: 14px;
+    font-size: var(--text-font-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--text-color);
